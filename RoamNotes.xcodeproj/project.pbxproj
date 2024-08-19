@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2A97502ACEF59A005AD451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A974F2ACEF59A005AD451 /* AppDelegate.swift */; };
+		9E2A97522ACEF59A005AD451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A97512ACEF59A005AD451 /* SceneDelegate.swift */; };
+		9E2A97542ACEF59A005AD451 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A97532ACEF59A005AD451 /* SplashViewController.swift */; };
+		9E2A97572ACEF59A005AD451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A97552ACEF59A005AD451 /* Main.storyboard */; };
+		9E2A97592ACEF59C005AD451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A97582ACEF59C005AD451 /* Assets.xcassets */; };
+		9E2A975C2ACEF59C005AD451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A975A2ACEF59C005AD451 /* LaunchScreen.storyboard */; };
+		9E2A97672ACEF59C005AD451 /* RoamNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A97662ACEF59C005AD451 /* RoamNotesTests.swift */; };
+		9E2A97712ACEF59C005AD451 /* RoamNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A97702ACEF59C005AD451 /* RoamNotesUITests.swift */; };
+		9E2A97732ACEF59C005AD451 /* RoamNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A97722ACEF59C005AD451 /* RoamNotesUITestsLaunchTests.swift */; };
+		9E2F67482ACF247000ADEFC9 /* RoamNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F67472ACF247000ADEFC9 /* RoamNotes.swift */; };
+		9E2F674B2ACF24A200ADEFC9 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F674A2ACF24A200ADEFC9 /* DatabaseHandler.swift */; };
+		9E2F674D2ACF27F900ADEFC9 /* AddTripDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F674C2ACF27F900ADEFC9 /* AddTripDataViewController.swift */; };
+		9E2F674F2ACF3CF900ADEFC9 /* AllSelectedTravelImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F674E2ACF3CF900ADEFC9 /* AllSelectedTravelImagesViewController.swift */; };
+		9E2F67522ACF3E5300ADEFC9 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2F67512ACF3E5300ADEFC9 /* StartViewController.swift */; };
+		9EA6D2742ACF028A007E5F18 /* AllTravelNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6D2732ACF028A007E5F18 /* AllTravelNotesViewController.swift */; };
+		9EA6D27B2ACF0385007E5F18 /* AllTravelNotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA6D27A2ACF0385007E5F18 /* AllTravelNotesTableViewCell.swift */; };
+		9EEE8CC92ACF4BF600CA2E25 /* AllSelectedTripImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE8CC82ACF4BF600CA2E25 /* AllSelectedTripImagesTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E2A97632ACEF59C005AD451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2A97442ACEF59A005AD451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2A974B2ACEF59A005AD451;
+			remoteInfo = RoamNotes;
+		};
+		9E2A976D2ACEF59C005AD451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2A97442ACEF59A005AD451 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2A974B2ACEF59A005AD451;
+			remoteInfo = RoamNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E2A974C2ACEF59A005AD451 /* RoamNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoamNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A974F2ACEF59A005AD451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E2A97512ACEF59A005AD451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E2A97532ACEF59A005AD451 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		9E2A97562ACEF59A005AD451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2A97582ACEF59C005AD451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2A975B2ACEF59C005AD451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2A975D2ACEF59C005AD451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A97622ACEF59C005AD451 /* RoamNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoamNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A97662ACEF59C005AD451 /* RoamNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamNotesTests.swift; sourceTree = "<group>"; };
+		9E2A976C2ACEF59C005AD451 /* RoamNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoamNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A97702ACEF59C005AD451 /* RoamNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamNotesUITests.swift; sourceTree = "<group>"; };
+		9E2A97722ACEF59C005AD451 /* RoamNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E2F67472ACF247000ADEFC9 /* RoamNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamNotes.swift; sourceTree = "<group>"; };
+		9E2F674A2ACF24A200ADEFC9 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		9E2F674C2ACF27F900ADEFC9 /* AddTripDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripDataViewController.swift; sourceTree = "<group>"; };
+		9E2F674E2ACF3CF900ADEFC9 /* AllSelectedTravelImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSelectedTravelImagesViewController.swift; sourceTree = "<group>"; };
+		9E2F67512ACF3E5300ADEFC9 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		9EA6D2732ACF028A007E5F18 /* AllTravelNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTravelNotesViewController.swift; sourceTree = "<group>"; };
+		9EA6D27A2ACF0385007E5F18 /* AllTravelNotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTravelNotesTableViewCell.swift; sourceTree = "<group>"; };
+		9EEE8CC82ACF4BF600CA2E25 /* AllSelectedTripImagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSelectedTripImagesTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2A97492ACEF59A005AD451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A975F2ACEF59C005AD451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A97692ACEF59C005AD451 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2A97432ACEF59A005AD451 = {
+			isa = PBXGroup;
+			children = (
+				9E2A974E2ACEF59A005AD451 /* RoamNotes */,
+				9E2A97652ACEF59C005AD451 /* RoamNotesTests */,
+				9E2A976F2ACEF59C005AD451 /* RoamNotesUITests */,
+				9E2A974D2ACEF59A005AD451 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2A974D2ACEF59A005AD451 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A974C2ACEF59A005AD451 /* RoamNotes.app */,
+				9E2A97622ACEF59C005AD451 /* RoamNotesTests.xctest */,
+				9E2A976C2ACEF59C005AD451 /* RoamNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2A974E2ACEF59A005AD451 /* RoamNotes */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F67492ACF248600ADEFC9 /* NetworkHelper */,
+				9E2A97812ACEF5ED005AD451 /* Assets */,
+				9E2A977F2ACEF5B4005AD451 /* AppLifeCycle */,
+				9E2A97802ACEF5D3005AD451 /* StoryBoard */,
+				9E2F67462ACF245A00ADEFC9 /* Models */,
+				9E2A97822ACEF615005AD451 /* Controller */,
+				9E2A975D2ACEF59C005AD451 /* Info.plist */,
+			);
+			path = RoamNotes;
+			sourceTree = "<group>";
+		};
+		9E2A97652ACEF59C005AD451 /* RoamNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A97662ACEF59C005AD451 /* RoamNotesTests.swift */,
+			);
+			path = RoamNotesTests;
+			sourceTree = "<group>";
+		};
+		9E2A976F2ACEF59C005AD451 /* RoamNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A97702ACEF59C005AD451 /* RoamNotesUITests.swift */,
+				9E2A97722ACEF59C005AD451 /* RoamNotesUITestsLaunchTests.swift */,
+			);
+			path = RoamNotesUITests;
+			sourceTree = "<group>";
+		};
+		9E2A977F2ACEF5B4005AD451 /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A974F2ACEF59A005AD451 /* AppDelegate.swift */,
+				9E2A97512ACEF59A005AD451 /* SceneDelegate.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
+		9E2A97802ACEF5D3005AD451 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A975A2ACEF59C005AD451 /* LaunchScreen.storyboard */,
+				9E2A97552ACEF59A005AD451 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		9E2A97812ACEF5ED005AD451 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A97582ACEF59C005AD451 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9E2A97822ACEF615005AD451 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F67502ACF3E2E00ADEFC9 /* NavigationFile */,
+				9EA6D2752ACF02C0007E5F18 /* Splash */,
+				9EA6D2762ACF02C8007E5F18 /* AllTravelNotes */,
+				9EA6D2772ACF02D2007E5F18 /* AddTravelNotes */,
+				9EA6D2782ACF02E3007E5F18 /* ImagesSelectedTravel */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E2F67462ACF245A00ADEFC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F67472ACF247000ADEFC9 /* RoamNotes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E2F67492ACF248600ADEFC9 /* NetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F674A2ACF24A200ADEFC9 /* DatabaseHandler.swift */,
+			);
+			path = NetworkHelper;
+			sourceTree = "<group>";
+		};
+		9E2F67502ACF3E2E00ADEFC9 /* NavigationFile */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F67512ACF3E5300ADEFC9 /* StartViewController.swift */,
+			);
+			path = NavigationFile;
+			sourceTree = "<group>";
+		};
+		9EA6D2752ACF02C0007E5F18 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A97532ACEF59A005AD451 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		9EA6D2762ACF02C8007E5F18 /* AllTravelNotes */ = {
+			isa = PBXGroup;
+			children = (
+				9EA6D2732ACF028A007E5F18 /* AllTravelNotesViewController.swift */,
+				9EA6D2792ACF0331007E5F18 /* Cell */,
+			);
+			path = AllTravelNotes;
+			sourceTree = "<group>";
+		};
+		9EA6D2772ACF02D2007E5F18 /* AddTravelNotes */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F674C2ACF27F900ADEFC9 /* AddTripDataViewController.swift */,
+			);
+			path = AddTravelNotes;
+			sourceTree = "<group>";
+		};
+		9EA6D2782ACF02E3007E5F18 /* ImagesSelectedTravel */ = {
+			isa = PBXGroup;
+			children = (
+				9E2F674E2ACF3CF900ADEFC9 /* AllSelectedTravelImagesViewController.swift */,
+				9EEE8CC72ACF4BC600CA2E25 /* Cell */,
+			);
+			path = ImagesSelectedTravel;
+			sourceTree = "<group>";
+		};
+		9EA6D2792ACF0331007E5F18 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9EA6D27A2ACF0385007E5F18 /* AllTravelNotesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9EEE8CC72ACF4BC600CA2E25 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE8CC82ACF4BF600CA2E25 /* AllSelectedTripImagesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2A974B2ACEF59A005AD451 /* RoamNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A97762ACEF59C005AD451 /* Build configuration list for PBXNativeTarget "RoamNotes" */;
+			buildPhases = (
+				9E2A97482ACEF59A005AD451 /* Sources */,
+				9E2A97492ACEF59A005AD451 /* Frameworks */,
+				9E2A974A2ACEF59A005AD451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoamNotes;
+			productName = RoamNotes;
+			productReference = 9E2A974C2ACEF59A005AD451 /* RoamNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E2A97612ACEF59C005AD451 /* RoamNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A97792ACEF59C005AD451 /* Build configuration list for PBXNativeTarget "RoamNotesTests" */;
+			buildPhases = (
+				9E2A975E2ACEF59C005AD451 /* Sources */,
+				9E2A975F2ACEF59C005AD451 /* Frameworks */,
+				9E2A97602ACEF59C005AD451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A97642ACEF59C005AD451 /* PBXTargetDependency */,
+			);
+			name = RoamNotesTests;
+			productName = RoamNotesTests;
+			productReference = 9E2A97622ACEF59C005AD451 /* RoamNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E2A976B2ACEF59C005AD451 /* RoamNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A977C2ACEF59C005AD451 /* Build configuration list for PBXNativeTarget "RoamNotesUITests" */;
+			buildPhases = (
+				9E2A97682ACEF59C005AD451 /* Sources */,
+				9E2A97692ACEF59C005AD451 /* Frameworks */,
+				9E2A976A2ACEF59C005AD451 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A976E2ACEF59C005AD451 /* PBXTargetDependency */,
+			);
+			name = RoamNotesUITests;
+			productName = RoamNotesUITests;
+			productReference = 9E2A976C2ACEF59C005AD451 /* RoamNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2A97442ACEF59A005AD451 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					9E2A974B2ACEF59A005AD451 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					9E2A97612ACEF59C005AD451 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9E2A974B2ACEF59A005AD451;
+					};
+					9E2A976B2ACEF59C005AD451 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 9E2A974B2ACEF59A005AD451;
+					};
+				};
+			};
+			buildConfigurationList = 9E2A97472ACEF59A005AD451 /* Build configuration list for PBXProject "RoamNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2A97432ACEF59A005AD451;
+			productRefGroup = 9E2A974D2ACEF59A005AD451 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2A974B2ACEF59A005AD451 /* RoamNotes */,
+				9E2A97612ACEF59C005AD451 /* RoamNotesTests */,
+				9E2A976B2ACEF59C005AD451 /* RoamNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2A974A2ACEF59A005AD451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A975C2ACEF59C005AD451 /* LaunchScreen.storyboard in Resources */,
+				9E2A97592ACEF59C005AD451 /* Assets.xcassets in Resources */,
+				9E2A97572ACEF59A005AD451 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A97602ACEF59C005AD451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A976A2ACEF59C005AD451 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2A97482ACEF59A005AD451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEE8CC92ACF4BF600CA2E25 /* AllSelectedTripImagesTableViewCell.swift in Sources */,
+				9EA6D2742ACF028A007E5F18 /* AllTravelNotesViewController.swift in Sources */,
+				9E2F674B2ACF24A200ADEFC9 /* DatabaseHandler.swift in Sources */,
+				9E2A97542ACEF59A005AD451 /* SplashViewController.swift in Sources */,
+				9E2F674F2ACF3CF900ADEFC9 /* AllSelectedTravelImagesViewController.swift in Sources */,
+				9E2F674D2ACF27F900ADEFC9 /* AddTripDataViewController.swift in Sources */,
+				9E2F67522ACF3E5300ADEFC9 /* StartViewController.swift in Sources */,
+				9E2F67482ACF247000ADEFC9 /* RoamNotes.swift in Sources */,
+				9E2A97502ACEF59A005AD451 /* AppDelegate.swift in Sources */,
+				9EA6D27B2ACF0385007E5F18 /* AllTravelNotesTableViewCell.swift in Sources */,
+				9E2A97522ACEF59A005AD451 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A975E2ACEF59C005AD451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A97672ACEF59C005AD451 /* RoamNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A97682ACEF59C005AD451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A97712ACEF59C005AD451 /* RoamNotesUITests.swift in Sources */,
+				9E2A97732ACEF59C005AD451 /* RoamNotesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E2A97642ACEF59C005AD451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2A974B2ACEF59A005AD451 /* RoamNotes */;
+			targetProxy = 9E2A97632ACEF59C005AD451 /* PBXContainerItemProxy */;
+		};
+		9E2A976E2ACEF59C005AD451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2A974B2ACEF59A005AD451 /* RoamNotes */;
+			targetProxy = 9E2A976D2ACEF59C005AD451 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E2A97552ACEF59A005AD451 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2A97562ACEF59A005AD451 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2A975A2ACEF59C005AD451 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2A975B2ACEF59C005AD451 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2A97742ACEF59C005AD451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E2A97752ACEF59C005AD451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2A97772ACEF59C005AD451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoamNotes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoamNotes;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zafi.RoamNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E2A97782ACEF59C005AD451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoamNotes/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoamNotes;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zafi.RoamNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9E2A977A2ACEF59C005AD451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zafi.RoamNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoamNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoamNotes";
+			};
+			name = Debug;
+		};
+		9E2A977B2ACEF59C005AD451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zafi.RoamNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoamNotes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoamNotes";
+			};
+			name = Release;
+		};
+		9E2A977D2ACEF59C005AD451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zafi.RoamNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoamNotes;
+			};
+			name = Debug;
+		};
+		9E2A977E2ACEF59C005AD451 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CTU277PX96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Zafi.RoamNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoamNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2A97472ACEF59A005AD451 /* Build configuration list for PBXProject "RoamNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A97742ACEF59C005AD451 /* Debug */,
+				9E2A97752ACEF59C005AD451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A97762ACEF59C005AD451 /* Build configuration list for PBXNativeTarget "RoamNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A97772ACEF59C005AD451 /* Debug */,
+				9E2A97782ACEF59C005AD451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A97792ACEF59C005AD451 /* Build configuration list for PBXNativeTarget "RoamNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A977A2ACEF59C005AD451 /* Debug */,
+				9E2A977B2ACEF59C005AD451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A977C2ACEF59C005AD451 /* Build configuration list for PBXNativeTarget "RoamNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A977D2ACEF59C005AD451 /* Debug */,
+				9E2A977E2ACEF59C005AD451 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E2A97442ACEF59A005AD451 /* Project object */;
+}
